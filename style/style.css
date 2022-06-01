@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+:root {
+    --primary-title-color: #212121;
+    --primary-text-color: #757575;
+    --hover-focus-color: #2196F3;
+}
+
+
+body {
+    margin: 0;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;   
+    
+}
+        /* -------------убрать в конце--------------------------------- */
+/* --------------------------------header----------------------------- */
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts:hover,
+.contacts:focus,
+.logo:hover,
+.logo:focus,
+.footer-contacts:hover,
+.footer-contacts:focus,
+.logo-h:hover,
+.logo-h:focus,
+.logo-f:hover,
+.logo-f:focus {
+    color: var(--hover-focus-color);
+}
+.section {
+    padding: 94px 0px;
+}
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid tomato;
+}
+
+.header {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    background: #FFFFFF; 
+    }
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-h {
+    color: #000000;
+}
+
+.header-link {    
+    color: #212121;
+}
+.contacts {
+    color: #757575;
+}
+.site-nav {
+   
+}
+.active-current {
+    color:#2196F3;
+}
+.link {     
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* -----------сброс марж +падинг---------------- */
+/* ----------------------------------main--------------------------------- */
+
+.title-section {
+   text-align: center;
+    background: #2F303A;
+}
+
+
+.title-text {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+   
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+  /* display: flex; */
+.button {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+    text-decoration: none;  
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 200px;
+    /* margin: 430px 700px; */
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+}
+.skills-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.skills,
+.work {
+}
+.work-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+.team-name,
+.team-position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+.team-position {
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+.team {
+    background: #F5F4FA;
+}
+/* ------------------ main portfolio-------------------- */
+.portfolio-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    
+}
+.portfolio-button:hover,    
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: var(--hover-focus-color);
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;   
+    letter-spacing: 0.06em;    
+    color: #212121;    
+}
+
+.portfolio-subtitle {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ------------------------------------footer----------------------------------*/
+.footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF; 
+    background: #2F303A;
+}
+
+.footer-address {
+    font-style: normal;
+}
+.logo-f,
+.address-text {
+    color: #FFFFFF;
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
