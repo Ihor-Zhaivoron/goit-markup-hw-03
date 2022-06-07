@@ -18,46 +18,56 @@
     <!-- Header section -->
     <header class="header">
       <div class="conteiner header-container">
-      <a class="logo link" lang="en" href="./index.html">Web<span class="logo-h">Studio</span> </a>
-      <nav>
-        <ul class="list">
-          <li ><a class="header-link link" href="./index.html">Студия</a></li>
-          <li><a class="header-link active-current link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="header-link link" href="">Контакты</a></li>
+        <nav class="header-nav">
+          <a class="logo link list" lang="en" href="./index.html"
+            >Web<span class="logo-dark">Studio</span>
+          </a>
+          <ul class="site-nav list">
+            <li class="header-item">
+              <a class="active-current header-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li>
+            <a class="header-mail link" href="malito:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="list header-list">
-        <li>
-          <a class="contacts link" href="malito:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="contacts link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
       </div>
     </header>
     <!-- Main section -->
     <main>
       <section>
-        <div class="conteiner">
-        <ul class="list">
+        <div class="conteiner portfolio-conteiner">
+        <ul class="btn-list list">
           <!-- cursor="pointer" чтото не так-------------------------- -->
-          <li><button class="portfolio-button" type="button"">Все</button></li>
-          <li>
+          <li class="btn-item">
+            <button class="portfolio-button current" type="button"">Все</button>
+          </li>
+          <li class="btn-item">
             <button class="portfolio-button" type="button">Веб-сайты</button>
           </li>
-          <li>
+          <li class="btn-item">
             <button class="portfolio-button" type="button">Приложения</button>
           </li>
-          <li>
+          <li class="btn-item">
             <button class="portfolio-button" type="button">Дизайн</button>
           </li>
-          <li>
+          <li class="btn-item">
             <button class="portfolio-button" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/team-in-notebook.jpg"
@@ -65,10 +75,12 @@
               height="294"
               alt="команда в ноутбуке"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Технокряк</h1>
             <p class="portfolio-subtitle">Веб-сайт</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/basket.jpg"
@@ -76,10 +88,12 @@
               height="294"
               alt="баскетбол"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Постер New Orlean vs Golden Star</h1>
             <p class="portfolio-subtitle">Дизайн</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/seafood.jpg"
@@ -87,10 +101,12 @@
               height="294"
               alt="ресторан"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Ресторан Seafood</h1>
             <p class="portfolio-subtitle">Приложение</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/headphones.jpg"
@@ -98,10 +114,12 @@
               height="294"
               alt="наушники"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Проект Prime</h1>
             <p class="portfolio-subtitle">Маркетинг</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/boxes.jpg"
@@ -109,10 +127,12 @@
               height="294"
               alt="коробки"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Проект Boxes</h1>
             <p class="portfolio-subtitle">Приложение</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/monitor.jpg"
@@ -120,10 +140,12 @@
               height="294"
               alt="монитор"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Inspiration has no Borders</h1>
             <p class="portfolio-subtitle">Веб-сайт</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/magazine.jpg"
@@ -131,10 +153,12 @@
               height="294"
               alt="журнал"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Издание Limited Edition</h1>
             <p class="portfolio-subtitle">Дизайн</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/tag.jpg"
@@ -142,10 +166,12 @@
               height="294"
               alt="бирка"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Проект LAB</h1>
             <p class="portfolio-subtitle">Маркетинг</p>
+            </div>
           </li>
-          <li>
+          <li class="portfolio-item">
             <img
               class="image"
               src="./images/portfolio/laptop.jpg"
@@ -153,8 +179,10 @@
               height="294"
               alt="ноут"
             />
+            <div class="portfolio-discription">
             <h1 class="portfolio-title">Growing Business</h1>
             <p class="portfolio-subtitle">Приложение</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -163,7 +191,7 @@
     <!-- Footer section -->
     <footer class="footer">
       <div class="conteiner">
-      <a class="logo link list" lang="en" href="./index.html">Web<span class="logo-f">Studio</span></a>
+      <a class="logo link list" lang="en" href="./index.html">Web<span class="logo-light">Studio</span></a>
       <address class="footer-address">
         <ul class="list">
           <li>
