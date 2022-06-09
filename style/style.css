@@ -63,18 +63,22 @@ img {
   height: auto;
 }
 /* --------------------------------header----------------------------- */
-.site-nav .link:hover,
-.site-nav .link:focus,
-.contacts:hover,
-.contacts:focus,
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
 .logo:hover,
 .logo:focus,
-.footer-contacts:hover,
-.footer-contacts:focus,
-.logo-h:hover,
-.logo-h:focus,
-.logo-f:hover,
-.logo-f:focus {
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus,
+.logo-dark:hover,
+.logo-dark:focus,
+.logo-light:hover,
+.logo-light:focus {
   color: var(--hover-focus-color);
 }
 .section {
@@ -193,10 +197,6 @@ img {
 .skills-list {
   display: flex;
 }
-.work .conteiner,
-.team .conteiner {
-  padding: 94px 0;
-}
 
 .skills-title {
   margin-bottom: 10px;
@@ -269,7 +269,7 @@ li.team-item {
 .btn-list.list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
@@ -329,8 +329,7 @@ li.team-item {
 
 /* ------------------------------------footer----------------------------------*/
 .footer {
-  padding: 60px;
-  font-weight: 400;
+  padding: 60px 0px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -347,7 +346,8 @@ li.team-item {
 .footer-item:first-child {
   color: #ffffff;
 }
-.footer-contacts {
+.footer-mail,
+.footer-tel {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-item:not(:first-child) {
